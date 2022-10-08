@@ -98,12 +98,35 @@ h1 {
 .item {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 180px;
-    height: 120px;
+    height: 250px;
     margin: 20px;
     border-radius: 8px;
-    background-color: #ebfbee;
+    background-color: #ffffff;
 }
+.item .photo {
+    width: 160px;
+    height: 160px;
+    
+    
+}
+.photo img {
+    height: 160px;
+    width: 100%;
+    max-width: 160px;
+    object-fit: cover;
+}
+.item p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.item button {
+    background-color: #66a80f;
+    color: #000;
+}
+
 
 
 footer {
